@@ -1,0 +1,28 @@
+timestamp,model_name,total_posts,api_calls_attempted,api_calls_succeeded,api_errors_count,labels_not_found_in_response,valid_predictions_for_metrics,accuracy,f1_macro,f1_weighted,precision_weighted,recall_weighted
+2025-06-11 14:10:47,grok-3-mini-latest,500,500,500,0,0,500,0.744,0.7350463826092122,0.7412007828109441,0.7621616013162051,0.744
+
+--- Per-Class Metrics ---
+class,f1_score,precision,recall,support
+indicator,0.6936936936936937,0.8279569892473119,0.5968992248062015,129
+ideation,0.7752293577981652,0.7161016949152542,0.845,200
+behavior,0.7385892116182573,0.8165137614678899,0.6742424242424242,132
+attempt,0.7326732673267327,0.5967741935483871,0.9487179487179487,39
+
+--- Classification Report ---
+              precision    recall  f1-score   support
+
+   indicator       0.83      0.60      0.69       129
+    ideation       0.72      0.84      0.78       200
+    behavior       0.82      0.67      0.74       132
+     attempt       0.60      0.95      0.73        39
+
+    accuracy                           0.74       500
+   macro avg       0.74      0.77      0.74       500
+weighted avg       0.76      0.74      0.74       500
+
+
+--- Confusion Matrix ---
+[[ 77,  35,   6,  11],
+ [ 15, 169,  13,   3],
+ [  1,  31,  89,  11],
+ [  0,   1,   1,  37]]

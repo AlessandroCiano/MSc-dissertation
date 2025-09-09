@@ -1,0 +1,2 @@
+Best weights: (np.float64(0.0), np.float64(0.3), np.float64(0.0), np.float64(0.3), np.float64(0.3))
+Best weighted F1 score: 0.8268

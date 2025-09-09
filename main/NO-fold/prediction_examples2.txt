@@ -1,0 +1,238 @@
+--- Example Success 1 (Class: behavior) ---
+Post: Never will find love. Kind of thinking about ending my life again. Work really has been giving me a mental breakdown from the past few weeks. Seems everything in my life is crap even me. I wish I was even attractive enough for someone. I hate being gay and I hate being myself. I want to go to a bridge and jump off.
+True Label: behavior
+Predicted Label: behavior
+Model Thinking: <thinking>
+1. **CONTENT ANALYSIS**: 
+   - Mentions "ending my life again" indicating recurring suicidal thoughts.
+   - Expresses despair ("everything in my life is crap"), self-loathing ("hate being myself"), and hopelessness about relationships.
+   - Explicitly references a specific method ("go to a bridge and jump off").
+   - No indication of past actions (e.g., "tried to jump"), preparations (e.g., "went to the bridge"), or interrupted attempts. Temporal context is future-oriented ("want to go").
+
+2. **EXPLICIT SUICIDE/DEATH INTENT**: 
+   - **Yes**: Direct phrases include "ending my life" and "jump off." The desire is personal and current ("I want to").
+
+3. **PLAN, METHOD, OR PREPARATION IDENTIFICATION**: 
+   - **Yes**: Specific method ("jump off") and location ("bridge") are clearly stated. No explicit preparations (e.g., "going now") are mentioned, but the plan is concrete.
+
+4. **TEMPORAL CONTEXT & ACTION ASSESSMENT**: 
+   - Describes future intention ("want to go") without reference to a past/initiated action. "Again" implies recurring thoughts, not a prior attempt (no action described).
+
+5. **CATEGORY REASONING**: 
+   - Explicit desire to die + specific method/location = **Behavior**. 
+   - Distinction from Ideation: Method/plan elevates it beyond mere desire. 
+   - Distinction from Attempt: No initiated action described (e.g., "I went to the bridge yesterday").
+</thinking>
+
+Final Classification: behavior
+Correct Prediction: True
+
+--- Example Failure 1 (Class: behavior) ---
+Post: I want to be gone tonight. I'm in so much mental pain, I want this pain to turn into physical. I want it to be over tonight, I don't wanna survive it. Please, I don't want it to continue, I can't handle it, I want it to stop. I hate everything, I need peace.
+True Label: behavior
+Predicted Label: ideation
+Model Thinking: <thinking>
+1. **CONTENT ANALYSIS**:
+   - The post expresses intense emotional distress: "I'm in so much mental pain," "I can't handle it," "I hate everything," and a desire for relief: "I need peace."
+   - There is a clear desire for death or cessation of existence: "I want to be gone tonight," "I want it to be over tonight," "I don't wanna survive it," and "I want it to stop." These phrases indicate a personal wish to die.
+   - The timeline is imminent ("tonight"), suggesting urgency.
+   - No specific suicide methods (e.g., pills, weapons) or preparations (e.g., writing a note, acquiring means) are mentioned.
+   - The desire to turn "mental pain into physical" could imply self-harm, but it is vague and not explicitly linked to a suicidal method or plan.
+   - No past suicidal actions or attempts are described.
+
+2. **EXPLICIT SUICIDE/DEATH INTENT**:
+   - The post does not use direct phrases like "suicide" or "kill myself," but it contains strong indirect expressions of a desire to die (e.g., "I want to be gone tonight," "I don't wanna survive it"). These convey a clear personal wish for death.
+   - There is no statement indicating that these thoughts are unwanted or resisted (e.g., no phrases like "but I don't want to die"). The author actively desires death as relief from pain.
+
+3. **PLAN, METHOD, OR PREPARATION IDENTIFICATION**:
+   - No specific method (e.g., overdose, jumping) is mentioned.
+   - No tools, locations, or preparations are referenced.
+   - The phrase "I want this pain to turn into physical" is ambiguous and could relate to self-harm, but it does not specify a plan or means for suicide. Without explicit details, this does not constitute a plan.
+
+4. **TEMPORAL CONTEXT & ACTION ASSESSMENT**:
+   - The post focuses on future intentions ("tonight") with no description of past or recent initiated actions (e.g., no mention of an attempt that was started or completed).
+
+5. **CATEGORY REASONING**:
+   - The author expresses a clear, personal desire to die, which rules out 'Indicator' (which requires no explicit suicidal desire).
+   - There is no mention of a specific plan, method, or preparation, so it does not meet the criteria for 'Behavior' (which requires such elements).
+   - No past or recent suicidal actions are described, so 'Attempt' does not apply.
+   - Given the explicit desire to die without a plan or method, this aligns with 'Ideation'. The imminence ("tonight") increases urgency but does not introduce a plan, keeping it within 'Ideation' per the rules (when unsure about plan/method, choose 'Ideation' over 'Behavior').
+
+</thinking>
+
+Final Classification: ideation
+Correct Prediction: False
+
+--- Example Success 1 (Class: ideation) ---
+Post: I'm inconsolable. I'm going to die soon
+True Label: ideation
+Predicted Label: ideation
+Model Thinking: <thinking>
+1. **CONTENT ANALYSIS:** 
+   - The post contains emotional indicators: "I'm inconsolable" suggests despair and hopelessness.
+   - It mentions death/dying: "I'm going to die soon" implies an expectation of death, with "soon" indicating imminence.
+   - No specific suicide methods (e.g., pills, weapons), plans, preparations (e.g., notes, acquiring means), or references to past actions are present.
+   - The phrase "I'm going to die soon" could reflect a desire to die in the context of despair, but it does not explicitly state suicidal intent or unwanted thoughts.
+
+2. **EXPLICIT SUICIDE/DEATH INTENT:**
+   - The post does not explicitly mention "suicide," "kill myself," or similar direct phrases.
+   - It expresses an expectation of death ("I'm going to die soon") in a despairing context, which may imply a desire to die, but the language is passive and not explicitly self-directed as a suicidal wish (e.g., it lacks phrases like "I want to die"). 
+   - There is no indication that suicidal thoughts (if present) are unwanted or negated. However, since suicide is not mentioned, the explicit intent is ambiguous.
+
+3. **PLAN, METHOD, OR PREPARATION IDENTIFICATION:**
+   - No specific method, tool, substance, location, or preparation is mentioned or implied. The statement is vague and lacks actionable details.
+
+4. **TEMPORAL CONTEXT & ACTION ASSESSMENT:**
+   - The post focuses on a future expectation ("soon") with no description of past or recent initiated actions (e.g., no mention of attempts, interventions, or self-harm).
+
+5. **CATEGORY REASONING:**
+   - The phrase "I'm going to die soon" in a context of despair aligns with the 'Ideation' category per the definition, which includes explicit personal expressions of a desire not to be alive or expectations of death (e.g., "I'm going to die soon" in despair). 
+   - However, the lack of explicit suicidal terminology (e.g., "suicide," "want to die") creates ambiguity. Per the rules, if there is doubt between 'Indicator' and 'Ideation' due to ambiguity about genuine suicidal desire, 'Indicator' should be chosen. But the Ideation definition specifically cites "I'm going to die soon" in despair as an example of Ideation, overriding the ambiguity rule in this case.
+   - No plan, method, or preparation is present, ruling out 'Behavior'. No past actions are described, ruling out 'Attempt'. Therefore, 'Ideation' is the best fit.
+</thinking>
+
+Final Classification: ideation
+Correct Prediction: True
+
+--- Example Failure 1 (Class: ideation) ---
+Post: I hate living. sometime i think about why i have to live until now just because two person fucked in a night. fuck
+True Label: ideation
+Predicted Label: indicator
+Model Thinking: <thinking>
+1. **CONTENT ANALYSIS:**
+   - Key elements: The post expresses strong dissatisfaction with life ("I hate living") and existential despair ("why i have to live until now just because two person fucked in a night"). It includes emotional indicators like hopelessness and a sense of meaninglessness. However, there is no explicit mention of death, dying, suicide, self-harm, or specific methods. The phrase "sometime i think about" frames this as a recurring thought rather than an immediate intent. No plans, methods, preparations, or references to past actions are present. The writer's desire is centered on distress about life circumstances, not a stated wish to die.
+
+2. **EXPLICIT SUICIDE/DEATH INTENT:**
+   - No explicit mention of suicide, death, or phrases like "kill myself." The expression "I hate living" suggests a desire to not be alive but is indirect and lacks the clarity of a genuine wish to die (e.g., compared to "I want to die"). Suicidal thoughts are not mentioned; instead, the focus is on questioning existence. There is no statement indicating that thoughts of death are unwanted or resisted, but the absence of explicit suicidal language leans this toward 'Indicator'.
+
+3. **PLAN, METHOD, OR PREPARATION IDENTIFICATION:**
+   - No plan, method, tool, substance, location, or preparation (e.g., suicide note, acquiring means) is mentioned. The content remains at the level of thoughts and feelings, with no actionable elements.
+
+4. **TEMPORAL CONTEXT & ACTION ASSESSMENT:**
+   - The post describes current or recurring thoughts ("sometime i think about"), with no reference to past actions or future intentions involving self-harm. No initiated suicidal actions (e.g., attempts) are described.
+
+5. **CATEGORY REASONING:**
+   - The post expresses general distress and hopelessness but lacks a clear, personal expression of desire to die or suicidal intent. Phrases like "I hate living" and questioning life could be ambiguous, but they fall short of explicit suicidal ideation (e.g., "I want to die"). With no plan, method, or preparation, it does not meet 'Behavior' or 'Attempt' criteria. Given the ambiguity and absence of explicit suicidal desire, this aligns with 'Indicator' per the rule: "If in doubt between Indicator and Ideation due to ambiguity about genuine suicidal desire, choose Indicator."
+</thinking>
+
+Final Classification: indicator
+Correct Prediction: False
+
+--- Example Success 1 (Class: indicator) ---
+Post: my brain keeps telling me to kill myself, but I don't actually want to. sometimes my brain keeps telling me things like how I'm ugly and stupid and not good enough. It's so tiring to try to love yourself when your own mind is against you. I know really know what this is a symptom of. I just feel tired and lonely because of these thoughts.
+True Label: indicator
+Predicted Label: indicator
+Model Thinking: <thinking>
+1. **CONTENT ANALYSIS**: 
+   - The post mentions "kill myself," which refers to suicide, but it is framed as an intrusive thought: "my brain keeps telling me to kill myself, but I don't actually want to." 
+   - Emotional indicators include feelings of being "ugly," "stupid," "not good enough," tiredness, loneliness, and struggling with self-love, but these reflect general distress rather than active suicidal intent.
+   - No specific plans, methods (e.g., tools, substances, locations), or preparations (e.g., notes, acquiring means) are mentioned.
+   - No references to past or recent suicidal actions, only thoughts.
+   - No imminence (e.g., "tonight," "soon") is indicated.
+   - The writer explicitly states the suicidal thoughts are unwanted and not desired: "I don't actually want to," indicating distress about the thoughts rather than a genuine wish to die.
+
+2. **EXPLICIT SUICIDE/DEATH INTENT**:
+   - Yes, the post explicitly mentions "kill myself," which is a direct phrase.
+   - However, the desire to die is clearly negated: "but I don't actually want to." The primary sentiment is distress about unwanted thoughts, not a personal desire for death.
+
+3. **PLAN, METHOD, OR PREPARATION IDENTIFICATION**:
+   - No specific method, tool, substance, location, or preparation is mentioned or implied. The suicide reference is general and not tied to any actionable plan.
+
+4. **TEMPORAL CONTEXT & ACTION ASSESSMENT**:
+   - The post describes current, ongoing thoughts ("my brain keeps telling me"), not past or future actions. There is no description of any initiated suicidal action, only intrusive thoughts.
+
+5. **CATEGORY REASONING**:
+   - The post expresses suicidal thoughts but explicitly states they are unwanted and not desired by the author. This aligns with the 'Indicator' category, which includes distress about suicidal thoughts without a current personal desire to die.
+   - It does not meet the criteria for 'Ideation' because there is no explicit personal desire to die (the desire is negated). 
+   - There is no plan, method, or preparation, so it does not qualify as 'Behavior'.
+   - No past or recent suicidal actions are described, so it is not an 'Attempt'.
+   - The emphasis on unwanted thoughts and lack of intent supports 'Indicator', especially given the rule to choose 'Indicator' if there is ambiguity about genuine suicidal desire.
+
+</thinking>
+
+Final Classification: indicator
+Correct Prediction: True
+
+--- Example Failure 1 (Class: indicator) ---
+Post: "You look like you're about to die". Yeah no shit mom, Iam depressed af and tried to kms yesterday, what do you want from me?
+True Label: indicator
+Predicted Label: attempt
+Model Thinking: <thinking>
+1. **CONTENT ANALYSIS:**
+   - Key elements: The post includes "tried to kms yesterday" (where "kms" means "kill myself"), indicating a direct reference to a suicidal action. It also mentions "depressed af," showing emotional distress. The phrase "tried to kms" describes a past, self-initiated action. No specific method, plan, or preparation details are provided, but the action itself is stated. The temporal context is "yesterday," making it recent.
+
+2. **EXPLICIT SUICIDE/DEATH INTENT:**
+   - Yes, the post explicitly mentions "kms" (kill myself), which is a direct phrase indicating suicidal intent. The desire to die is implied through the action described ("tried"), and there is no negation or statement that the thoughts were unwanted.
+
+3. **PLAN, METHOD, OR PREPARATION IDENTIFICATION:**
+   - No specific method (e.g., pills, hanging) or preparation (e.g., note, acquiring means) is mentioned. The focus is on the past action itself, not on planning or methods for a future act.
+
+4. **TEMPORAL CONTEXT & ACTION ASSESSMENT:**
+   - The post describes a past event: "tried to kms yesterday." This indicates a specific, potentially lethal action that was initiated by the author. Even though it may have been interrupted or failed (implied by "tried"), it constitutes an actual attempt according to the 'Attempt' definition.
+
+5. **CATEGORY REASONING:**
+   - The core of the post is the description of a past suicidal action ("tried to kms yesterday"), which fits the 'Attempt' category definition: "past or very recent, specific, self-initiated actions by the author that were potentially lethal." Although current distress is present ("depressed af"), the mention of a concrete past attempt takes precedence over any potential current ideation or behavior. Since the action was initiated, it is not 'Behavior' (which involves planning without action) or 'Ideation' (desire without action). The explicit suicidal intent rules out 'Indicator'.
+</thinking>
+
+Final Classification: attempt
+Correct Prediction: False
+
+--- Example Success 1 (Class: attempt) ---
+Post: No point in existing. When every thing you do and every word that comes out of your mouth hurts the people that you love there's no point in being alive anymore. I don't mean to hurt anyone. But it seems like every opinion i have, every piece of advice i try to give, just everything that i say or do or think hurts everyone. Im so tired of being alive. I just want someone to love me and accept me and its never going to happen. I want to be brave enough to kill myself but the past two times ive tried ive failed. Im so tired and sad.
+True Label: attempt
+Predicted Label: attempt
+Model Thinking: <thinking>
+1. **CONTENT ANALYSIS**: 
+   - The post includes explicit mentions of suicide: "I want to be brave enough to kill myself" and references to past actions: "the past two times ive tried ive failed." 
+   - Emotional indicators are present: hopelessness ("no point in existing," "it's never going to happen"), despair ("Im so tired of being alive"), and feelings of being a burden ("every thing you do... hurts the people that you love").
+   - No specific plans, methods, or preparations for future suicide are mentioned (e.g., no tools, locations, or timing).
+   - The post describes past suicidal actions ("tried") that were initiated but failed.
+   - There is a current desire to die ("I want to be brave enough to kill myself"), with no statement indicating these thoughts are unwanted or negated.
+
+2. **EXPLICIT SUICIDE/DEATH INTENT**: 
+   - Yes, the post explicitly mentions "kill myself," and expresses a clear personal desire to die (e.g., "I want to be brave enough to kill myself," "no point in being alive anymore"). There is no indication that these thoughts are unwanted or resisted.
+
+3. **PLAN, METHOD, OR PREPARATION IDENTIFICATION**: 
+   - No specific method, plan, or preparation for a future suicide is mentioned. The references to past attempts do not include details about methods, and there is no current planning described.
+
+4. **TEMPORAL CONTEXT & ACTION ASSESSMENT**: 
+   - The post describes both current suicidal ideation ("I want to be brave enough to kill myself") and past actions: "the past two times ive tried ive failed." The past actions are concrete, self-initiated, and potentially lethal (as they were "tried" and failed), fitting the definition of an attempt.
+
+5. **CATEGORY REASONING**: 
+   - The explicit desire to die and suicidal thoughts lean toward 'Ideation' or higher, but the mention of past attempts shifts the focus. 
+   - Per the rules: "If a post refers to such past attempts and also mentions current plans/ideation, it should still be labeled 'Attempt' if the past action is clearly described." Here, the past actions ("tried") are clearly described as concrete, potentially lethal acts that were initiated, even though they failed. 
+   - This takes precedence over current ideation or behavior. There is no current plan or preparation, so 'Behavior' is not applicable. 'Indicator' is ruled out due to explicit personal suicidal desire. 
+   - Therefore, the category is 'Attempt'.
+</thinking>
+
+Final Classification: attempt
+Correct Prediction: True
+
+--- Example Failure 1 (Class: attempt) ---
+Post: Feeling bad about seeking help. I'm making this post because I feel bad about seeking help and I am not sure how to proceed. I have a long history of depression and suicidal thoughts, even to the extent that I have attempted suicide in the past (many years ago). I believed I was past it all, but this year has pushed me back down and I've begun having those thoughts again. I have some chronic medical issues which cause me massive amounts of pain, to the point that I can hardly move and I can't even get dressed on my own. (I'm not even 30 years old and I can't dress myself) For a while I tried to keep the pain, both physical and mental, to myself. Yesterday, I finally broke down and told my wife that I need help. She has been EXTREMELY supportive, and has helped me set up appointments to get help. Whether or not I follow through is another thing, but I am going to try. Now here's the specific issue I'm seeking help with: I appreciate my wife's support in all of this, but there are certain aspects that I really don't want to talk to her about, specifically the stress caused by my medical issues. I have spoken to her and we decided it might be a good idea to speak to one of our shared/close friends about it because this person has also has/had severe medical issues. This friend is trustworthy and extremely kind-hearted, so we have no doubt that it would help at least somewhat. Even after talking to my wife and having her support, I still feel terrible about it. I feel like a piece of crap for not being able to confide in her about this, especially when I'm willing to talk to another friend about it. It almost feels like emotional cheating, and I feel bad because my wife has already told me she feels powerless to help (despite everything she's done to help thus far).
+True Label: attempt
+Predicted Label: indicator
+Model Thinking: <thinking>
+1. **CONTENT ANALYSIS**:
+   - Mentions "long history of depression and suicidal thoughts" and a past suicide attempt ("attempted suicide in the past, many years ago").
+   - States current resurgence of suicidal thoughts ("I've begun having those thoughts again").
+   - Expresses distress, guilt, and hopelessness related to chronic pain and feeling like a burden ("I feel like a piece of crap," "my wife feels powerless").
+   - No mention of current suicidal desire, plan, method, preparation, or imminent timeline. Focus is on seeking support and guilt about communication struggles.
+   - Explicitly discusses active steps to get help (setting up appointments, confiding in friends/wife).
+
+2. **EXPLICIT SUICIDE/DEATH INTENT**:
+   - Suicidal thoughts are mentioned as recurring but framed in the context of past experiences and current distress, not as a current desire to die. The writer emphasizes seeking help and trying to follow through with appointments. No phrases like "I want to die now" or "I will kill myself" appear.
+
+3. **PLAN, METHOD, OR PREPARATION IDENTIFICATION**:
+   - No specific method, plan, tools, locations, or preparations for suicide are mentioned. References to past attempts lack current planning elements.
+
+4. **TEMPORAL CONTEXT & ACTION ASSESSMENT**:
+   - The suicide attempt is explicitly stated as historical ("many years ago"). No recent or initiated self-harm actions are described. Current focus is on emotional struggles and help-seeking.
+
+5. **CATEGORY REASONING**:
+   - The post expresses distress, guilt, and hopelessness, alongside a history of suicidal thoughts/attempts. However, it lacks a *current, personal expression of desire to die*. Suicidal thoughts are mentioned but not framed as a present intent, and the writer actively discusses help-seeking. No plan/method/preparation exists for current behavior. The core issue is emotional conflict about communication, not active suicidality. Fits **Indicator** (distress with unwanted thoughts/history, no current desire/plan).
+</thinking>
+
+Final Classification: indicator
+Correct Prediction: False
+

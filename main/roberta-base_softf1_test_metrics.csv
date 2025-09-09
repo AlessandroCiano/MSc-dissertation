@@ -1,0 +1,2 @@
+model_dir,test_data_path,accuracy,f1_weighted,precision_weighted,recall_weighted,eval_loss
+models/roberta_softf1_finetuned,data/test_set.csv,0.83,0.8311806361487213,0.8407089947089946,0.83,3.544830322265625
